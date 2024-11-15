@@ -1,13 +1,6 @@
 import scrapy
 import json
 
-
-class MainSpider(scrapy.Spider):
-    name = "main"
-    allowed_domains = ["locations.carlsjr.com"]
-    start_urls = ["https://locations.carlsjr.com/"]
-    import scrapy
-
 class MainSpider(scrapy.Spider):
     name = "main"
     allowed_domains = ["locations.carlsjr.com"]
